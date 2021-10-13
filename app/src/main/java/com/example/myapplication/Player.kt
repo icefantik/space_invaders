@@ -1,7 +1,6 @@
 package com.example.myapplication
 
-class Player
+class Player(open var Name : String?, open var Point : Int)
 {
-    var name : String? = null
-
+    open var health = 100
 }
